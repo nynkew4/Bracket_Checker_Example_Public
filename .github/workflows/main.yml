@@ -31,4 +31,4 @@ jobs:
         uses: xt0rted/dotnet-tool-restore@v1
 
       - name: Run dotnet format
-        uses: xt0rted/dotnet-format@v3
+        uses: xt0rted/dotnet-format@v1
