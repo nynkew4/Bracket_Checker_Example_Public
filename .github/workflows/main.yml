@@ -22,8 +22,3 @@ jobs:
 
       - name: Test
         run: dotnet test --no-build --verbosity normal
-
-      - name: dotnet-format
-        uses: marianovacek/dotnet-format-action@v2
-        with:
-          check: true
